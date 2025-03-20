@@ -66,7 +66,7 @@ bash
 ### Using TestNG XML:
 Run the `testng.xml` file directly from your IDE.
 
-##CI/CD Integration with GitHub Actions
+## CI/CD Integration with GitHub Actions
 - The workflow is triggered on:
 - Push events to the master branch
 - Pull request events targeting the master branch
