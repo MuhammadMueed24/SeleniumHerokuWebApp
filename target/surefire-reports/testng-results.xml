@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-20T04:58:54 PKT" name="Suite" finished-at="2025-03-20T04:59:47 PKT" duration-ms="52774">
+    <groups>
+    </groups>
+    <test started-at="2025-03-20T04:58:54 PKT" name="Parallel Test Execution" finished-at="2025-03-20T04:59:47 PKT" duration-ms="52774">
+      <class name="test_cases.alert_handling">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.alert_handling@481a996b]" started-at="2025-03-20T04:59:07 PKT" name="setup" finished-at="2025-03-20T04:59:08 PKT" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:test_cases.alert_handling@481a996b]" started-at="2025-03-20T04:59:08 PKT" name="setupTest" finished-at="2025-03-20T04:59:08 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testGenericJSAlertHandler()[pri:0, instance:test_cases.alert_handling@481a996b]" started-at="2025-03-20T04:59:08 PKT" name="testGenericJSAlertHandler" finished-at="2025-03-20T04:59:20 PKT" duration-ms="11764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenericJSAlertHandler -->
+        <test-method signature="testJSAlert()[pri:0, instance:test_cases.alert_handling@481a996b]" started-at="2025-03-20T04:59:20 PKT" name="testJSAlert" finished-at="2025-03-20T04:59:20 PKT" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJSAlert -->
+        <test-method signature="testJSConfirmDismiss()[pri:0, instance:test_cases.alert_handling@481a996b]" started-at="2025-03-20T04:59:20 PKT" name="testJSConfirmDismiss" finished-at="2025-03-20T04:59:20 PKT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJSConfirmDismiss -->
+        <test-method signature="testJSPrompt()[pri:0, instance:test_cases.alert_handling@481a996b]" started-at="2025-03-20T04:59:20 PKT" name="testJSPrompt" finished-at="2025-03-20T04:59:21 PKT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJSPrompt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.alert_handling@481a996b]" started-at="2025-03-20T04:59:21 PKT" name="tearDown" finished-at="2025-03-20T04:59:21 PKT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.alert_handling -->
+      <class name="test_cases.tableTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.tableTest@39529185]" started-at="2025-03-20T04:58:54 PKT" name="setup" finished-at="2025-03-20T04:58:55 PKT" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:test_cases.tableTest@39529185]" started-at="2025-03-20T04:58:55 PKT" name="setupTest" finished-at="2025-03-20T04:58:55 PKT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="ExtractData()[pri:0, instance:test_cases.tableTest@39529185]" started-at="2025-03-20T04:58:55 PKT" name="ExtractData" finished-at="2025-03-20T04:59:06 PKT" duration-ms="11199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtractData -->
+        <test-method signature="testExtractCompanyNames()[pri:0, instance:test_cases.tableTest@39529185]" started-at="2025-03-20T04:59:06 PKT" name="testExtractCompanyNames" finished-at="2025-03-20T04:59:07 PKT" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractCompanyNames -->
+        <test-method signature="testVerifyCompanyExists()[pri:0, instance:test_cases.tableTest@39529185]" started-at="2025-03-20T04:59:07 PKT" name="testVerifyCompanyExists" finished-at="2025-03-20T04:59:07 PKT" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyCompanyExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.tableTest@39529185]" started-at="2025-03-20T04:59:07 PKT" name="tearDown" finished-at="2025-03-20T04:59:07 PKT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.tableTest -->
+      <class name="test_cases.fileUpload">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.fileUpload@3d51f06e]" started-at="2025-03-20T04:59:21 PKT" name="setup" finished-at="2025-03-20T04:59:21 PKT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:test_cases.fileUpload@3d51f06e]" started-at="2025-03-20T04:59:21 PKT" name="setupTest" finished-at="2025-03-20T04:59:21 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testFileUploadUsingRobot()[pri:0, instance:test_cases.fileUpload@3d51f06e]" started-at="2025-03-20T04:59:21 PKT" name="testFileUploadUsingRobot" finished-at="2025-03-20T04:59:32 PKT" duration-ms="11204" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[File upload failed: invalid argument
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-52-generic', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28a829879932877bd12b296b748fae7d, clickElement {id=f.EA439812D95B90839485DF3217B25F3E.d.5FD9B5336075D2775B247367F1CB4C48.e.3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35775/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (28a829879932877bd12b296b748fae7d)] -> id: file-upload]
+Session ID: 28a829879932877bd12b296b748fae7d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: File upload failed: invalid argument
+  (Session info: chrome=133.0.6943.98)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-52-generic', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28a829879932877bd12b296b748fae7d, clickElement {id=f.EA439812D95B90839485DF3217B25F3E.d.5FD9B5336075D2775B247367F1CB4C48.e.3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35775/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (28a829879932877bd12b296b748fae7d)] -> id: file-upload]
+Session ID: 28a829879932877bd12b296b748fae7d
+at page_objects.fileUploadPage.uploadFileUsingRobot(fileUploadPage.java:93)
+at test_cases.fileUpload.testFileUploadUsingRobot(fileUpload.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUploadUsingRobot -->
+        <test-method signature="testFileUploadUsingSendKeys()[pri:0, instance:test_cases.fileUpload@3d51f06e]" started-at="2025-03-20T04:59:32 PKT" name="testFileUploadUsingSendKeys" finished-at="2025-03-20T04:59:33 PKT" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUploadUsingSendKeys -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.fileUpload@3d51f06e]" started-at="2025-03-20T04:59:33 PKT" name="tearDown" finished-at="2025-03-20T04:59:33 PKT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.fileUpload -->
+      <class name="test_cases.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_cases.loginTest@7ed7259e]" started-at="2025-03-20T04:59:33 PKT" name="setup" finished-at="2025-03-20T04:59:34 PKT" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:test_cases.loginTest@7ed7259e]" started-at="2025-03-20T04:59:34 PKT" name="setupTest" finished-at="2025-03-20T04:59:34 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="login_with_invalid_cred()[pri:0, instance:test_cases.loginTest@7ed7259e]" started-at="2025-03-20T04:59:34 PKT" name="login_with_invalid_cred" finished-at="2025-03-20T04:59:45 PKT" duration-ms="11437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_invalid_cred -->
+        <test-method signature="login_with_valid_cred()[pri:0, instance:test_cases.loginTest@7ed7259e]" started-at="2025-03-20T04:59:45 PKT" name="login_with_valid_cred" finished-at="2025-03-20T04:59:46 PKT" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_cred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.loginTest@7ed7259e]" started-at="2025-03-20T04:59:46 PKT" name="tearDown" finished-at="2025-03-20T04:59:47 PKT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.loginTest -->
+    </test> <!-- Parallel Test Execution -->
+  </suite> <!-- Suite -->
+</testng-results>

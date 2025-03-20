@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Parallel Test Execution</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">52,774</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Parallel Test Execution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test_cases.fileUpload</td><td><a href="#m0">testFileUploadUsingRobot</a></td><td rowspan="1">1742428761780</td><td rowspan="1">11204</td></tr><tr><th colspan="4">Parallel Test Execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">test_cases.alert_handling</td><td><a href="#m1">testGenericJSAlertHandler</a></td><td rowspan="1">1742428748302</td><td rowspan="1">11764</td></tr><tr class="passedeven"><td><a href="#m2">testJSAlert</a></td><td rowspan="1">1742428760067</td><td rowspan="1">390</td></tr><tr class="passedeven"><td><a href="#m3">testJSConfirmDismiss</a></td><td rowspan="1">1742428760459</td><td rowspan="1">389</td></tr><tr class="passedeven"><td><a href="#m4">testJSPrompt</a></td><td rowspan="1">1742428760849</td><td rowspan="1">435</td></tr><tr class="passedodd"><td rowspan="1">test_cases.fileUpload</td><td><a href="#m5">testFileUploadUsingSendKeys</a></td><td rowspan="1">1742428772989</td><td rowspan="1">899</td></tr><tr class="passedeven"><td rowspan="2">test_cases.loginTest</td><td><a href="#m6">login_with_invalid_cred</a></td><td rowspan="1">1742428774365</td><td rowspan="1">11437</td></tr><tr class="passedeven"><td><a href="#m7">login_with_valid_cred</a></td><td rowspan="1">1742428785803</td><td rowspan="1">1194</td></tr><tr class="passedodd"><td rowspan="3">test_cases.tableTest</td><td><a href="#m8">ExtractData</a></td><td rowspan="1">1742428735650</td><td rowspan="1">11199</td></tr><tr class="passedodd"><td><a href="#m9">testExtractCompanyNames</a></td><td rowspan="1">1742428746850</td><td rowspan="1">482</td></tr><tr class="passedodd"><td><a href="#m10">testVerifyCompanyExists</a></td><td rowspan="1">1742428747333</td><td rowspan="1">475</td></tr></tbody>
+</table>
+<h2>Parallel Test Execution</h2><h3 id="m0">test_cases.fileUpload#testFileUploadUsingRobot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: File upload failed: invalid argument
+  (Session info: chrome=133.0.6943.98)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-52-generic&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28a829879932877bd12b296b748fae7d, clickElement {id=f.EA439812D95B90839485DF3217B25F3E.d.5FD9B5336075D2775B247367F1CB4C48.e.3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.98, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35775/devtoo..., se:cdpVersion: 133.0.6943.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (28a829879932877bd12b296b748fae7d)] -&gt; id: file-upload]
+Session ID: 28a829879932877bd12b296b748fae7d
+	at page_objects.fileUploadPage.uploadFileUsingRobot(fileUploadPage.java:93)
+	at test_cases.fileUpload.testFileUploadUsingRobot(fileUpload.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test_cases.alert_handling#testGenericJSAlertHandler</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test_cases.alert_handling#testJSAlert</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test_cases.alert_handling#testJSConfirmDismiss</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test_cases.alert_handling#testJSPrompt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test_cases.fileUpload#testFileUploadUsingSendKeys</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test_cases.loginTest#login_with_invalid_cred</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test_cases.loginTest#login_with_valid_cred</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test_cases.tableTest#ExtractData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test_cases.tableTest#testExtractCompanyNames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test_cases.tableTest#testVerifyCompanyExists</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
