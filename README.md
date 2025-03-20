@@ -29,19 +29,7 @@ A robust test automation framework built with Selenium WebDriver, TestNG, and Ja
 ## Project Structure
 
 
-├── src/
-│ └── test/
-│ ├── java/
-│ │ ├── page_objects/ # Page object classes
-│ │ ├── test_base/ # Base test configuration
-│ │ ├── test_cases/ # Test case implementations
-│ │ └── util/ # Helper utilities
-│ └── resources/ # Test resources and config files
-├── screenshots/ # Test failure screenshots
-├── pom.xml # Maven configuration
-├── testng.xml # TestNG suite configuration
-└── run_test.sh # Test execution script
-
+```SeleniumHerokuWebApp/ ├── src/ │ ├── test/ │ │ ├── java/ │ │ │ ├── page_objects/ # Page object classes │ │ │ ├── test_base/ # Base test configuration │ │ │ ├── test_cases/ # Test case implementations │ │ │ ├── util/ # Helper utilities │ │ ├── resources/ # Test resources and config files ├── screenshots/ # Test failure screenshots ├── pom.xml # Maven configuration ├── testng.xml # TestNG suite configuration ├── run_test.sh # Test execution script ├── config.properties # Test configuration properties ├── log4j2.xml # Logging configuration```
 
 
 ## Prerequisites
