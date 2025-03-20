@@ -62,9 +62,15 @@ public class baseClass {
 			if (browser.equalsIgnoreCase("chrome")) {
 				WebDriverManager.chromedriver().setup();
 				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless"); // Enable headless mode for GitHub Actions
 				options.addArguments("--disable-notifications");
 				options.addArguments("--no-sandbox");
 				options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--remote-allow-origins=*"); // Fixes some remote session issues
+				options.addArguments("--window-size=1920,1080"); // Ensures proper viewport for UI tests
+				options.addArguments("--disable-gpu"); // Required for some environments
+				options.addArguments("--ignore-certificate-errors"); // Handles SSL issues
+				options.addArguments("--disable-popup-blocking"); // Prevents pop-ups from interrupting tests
 				driver = new ChromeDriver(options);
 				logger.info("Chrome WebDriver initialized");
 			} else if (browser.equalsIgnoreCase("firefox")) {
