@@ -66,6 +66,16 @@ bash
 ### Using TestNG XML:
 Run the `testng.xml` file directly from your IDE.
 
+##CI/CD Integration with GitHub Actions
+- The workflow is triggered on:
+- Push events to the master branch
+- Pull request events targeting the master branch
+- The workflow includes:
+- Checking out the repository
+- Setting up JDK 17
+- Setting up Chrome
+- Running the test suite using Maven
+
 ## Test Cases
 
 1. Login Tests (`loginTest.java`)
@@ -98,6 +108,9 @@ Run the `testng.xml` file directly from your IDE.
 
 - `snapFunction.java`: Screenshot capture functionality
 - `helpingClass.java`: Common WebDriver helper methods
+
+
+
 - `baseClass.java`: Test initialization and cleanup
 
 
